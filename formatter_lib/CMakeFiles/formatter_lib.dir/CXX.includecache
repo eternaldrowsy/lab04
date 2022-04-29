@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/naran/Загрузки/Telegram Desktop/lab_03_timp/formatter_lib/formatter.cpp
+formatter.h
+/home/naran/Загрузки/Telegram Desktop/lab_03_timp/formatter_lib/formatter.h
+
+/home/naran/Загрузки/Telegram Desktop/lab_03_timp/formatter_lib/formatter.h
+string
+-
+

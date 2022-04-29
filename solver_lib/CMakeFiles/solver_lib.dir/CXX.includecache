@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/naran/Загрузки/Telegram Desktop/lab_03_timp/solver_lib/solver.cpp
+solver.h
+/home/naran/Загрузки/Telegram Desktop/lab_03_timp/solver_lib/solver.h
+cmath
+-
+stdexcept
+-
+
+/home/naran/Загрузки/Telegram Desktop/lab_03_timp/solver_lib/solver.h
+
