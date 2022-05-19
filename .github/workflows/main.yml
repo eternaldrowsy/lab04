@@ -1,4 +1,4 @@
-name: CI
+name: CMake
 
 on:
   push:
@@ -11,7 +11,7 @@ env:
   BUILD_TYPE: Release
 
 jobs:
-  build_hello_world_application:
+  hello_world_application:
     runs-on: ubuntu-latest
 
     steps:
@@ -26,18 +26,18 @@ jobs:
           cd build
           make
           ./hello_world
-    solver_application:
-      runs-on: ubuntu-latest
+  sovler_application:
+    runs-on: ubuntu-latest
 
-      steps:
-        - name: checkout
-          uses: actions/checkout@master
+    steps:
+      - name: checkout
+        uses: actions/checkout@master
 
-        - name: Building solver_application
-          shell: bash
-          working-directory: solver_application
-          run: |
-            cmake -B ./build
-            cd build
-            make
-            ./equation
+      - name: Building solver_application
+        shell: bash
+        working-directory: solver_application
+        run: |
+          cmake -B ./build
+          cd build
+          make
+          ./equation
